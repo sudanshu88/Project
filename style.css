@@ -1,0 +1,224 @@
+#navigation {
+    text-align: left;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(bgrestraunt.jpg);
+    font-family: "Sigmar", serif;
+    color: white;
+    height: 400px;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin: 0 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul a:hover {
+    color: beige;
+}
+
+#nav1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#text-overlay {
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    right: 45%;
+    transform: translateY(-50%);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    color: white;
+    font-size: 20px;    
+    padding-top: 10px;
+    border-radius: 20px;
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+    font-size: medium;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#div2, #div3, #div4, #div5, #div6, #div7, #div8 {
+    width: 150px;
+    height: 180px;
+    overflow: hidden;
+    background-color: lightblue;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    transition: width 2s;
+}
+
+#div2 {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(burger.jpg);
+    background-size: 300px 200px;
+}
+
+#div3 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(pizza.jpg);
+    background-size: 300px 200px;
+}
+
+#div4 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(momos.jpg);
+    background-size: 300px 200px;
+}
+
+#div5 {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(tandoorichiken.jpg);
+    background-size: 300px 200px;
+}
+
+#div6 {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(chikenbriyani.jpg);
+    background-size: 300px 200px;
+}
+
+#div7 {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(drinks.jpg);
+    background-size: 300px 200px;
+}
+
+#div2:hover, #div3:hover, #div4:hover, #div5:hover, #div6:hover, #div7:hover, #div8:hover{
+    width: 280px;
+}
+
+.class1 {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.item {
+    border-radius: 20px;
+    width: calc(25% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.item img {
+    border-radius: 20px;
+    width: 350px;
+    height: 280px;
+    object-fit: cover;
+    overflow: hidden;
+}
+#test10 {
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(headerimage.jpg);
+    font-family: "IBM Plex Mono", serif;
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding-top: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(footer.jpg);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    opacity: 0.5;
+}
+
+.footer-address {
+    margin-top: 20px;
+}
+
+.footer-address p {
+    margin: 5px 0;
+}
+

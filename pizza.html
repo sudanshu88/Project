@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: white;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            
+            .product-container {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid white;
+                background-color: white;
+                padding: 30px;
+                margin: 50px;
+            }
+            
+            .product {
+                display: flex;
+                margin-bottom: 30px;
+            }
+            
+            .product-image img {
+                width: 200px;
+                height: 180px;
+                object-fit: cover;
+                margin-right: 20px;
+            }
+            
+            .product-details {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .product-details h1 {
+                margin: 0 0 10px;
+            }
+            
+            .product-details .price {
+                color: red;
+                font-size: 24px;
+                margin: 0 0 10px;
+            }
+            
+            .product-details .description {
+                margin: 0 0 10px;
+            }
+            
+            .product-details button {
+                background-color: orangered;
+                color: white;
+                border: none;
+                padding: 15px;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+                width: 200px;
+            }
+            .product-details button:hover {
+                background-color: red;
+            }
+
+            .explore-link {
+                text-decoration: none;
+                color: white;
+            }
+
+            .footer {
+                background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(footer.jpg);
+                color: white;
+                padding: 20px;
+                text-align: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 20px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            
+            .footer-container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .footer-links ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            .footer-links li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            
+            .footer-links a {
+                color: white;
+                text-decoration: none;
+                padding: 8px;
+            }
+            
+            .footer-links a:hover {
+                text-decoration: underline;
+            }
+            
+            .social-icon {
+                color: white;
+                font-size: 24px;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            
+            .social-icon:hover {
+                opacity: 0.5;
+            }
+            
+            .footer-address {
+                margin-top: 20px;
+            }
+            
+            .footer-address p {
+                margin: 5px 0;
+            }
+            
+            #navigation {
+                text-align: left;
+                border-radius: 10px;
+                background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(bgrestraunt.jpg);
+                font-family: "Sigmar", serif;
+                color: white;
+                height: 100;
+                object-fit: cover;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-left: 30px;
+                text-align: center;
+            }
+
+            ul {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0;
+            }
+            
+            ul a {
+                text-decoration: none;
+                color: white;
+                font-size: larger;
+                margin: 0 20px;
+            }
+            
+            ul li {
+                display: inline;
+            }
+            
+            ul a:hover {
+                color: beige;
+            }
+
+    </style>
+</head>
+<body>
+        <nav id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav></div>
+    
+    <div class="product-container">
+        <div class="product">
+            <div class="product-image">
+                <img src="7cheese.jpg" alt="7 cheese">
+            </div>
+            <div class="product-details">
+                <h1>The Ultimate 7 Cheese</h1>
+                <p class="price">699</p>
+                <p class="description">
+                    Savor our 7 Cheese Pizza, featuring a mouth-watering blend of Mozzarella, Cheddar, Fontina, Gouda, Parmesan, Provolone, and Blue Cheese. This pizza is perfect for cheese lovers seeking a rich, flavorful experience!</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="pizza.jpg" alt="Veggie Delight">
+            </div>
+            <div class="product-details">
+                <h1>Veggie Delight</h1>
+                <p class="price">399</p>
+                <p class="description">
+                    Delight in our Veggie Delight Pizza, topped with a medley of fresh veggies like bell peppers, mushrooms, onions, and tomatoes on a crispy thin crust. Perfect for veggie lovers craving a wholesome and flavorful experience!
+                </p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="plainpizza.jpg" alt="Plain Pizza">
+            </div>
+            <div class="product-details">
+                <h1>Plain Pizza</h1>
+                <p class="price">299</p>
+                <p class="description">
+                    Enjoy our classic Plain Pizza, featuring a golden, crispy crust topped with our signature tomato sauce and a generous layer of melted Mozzarella cheese.
+                </p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="social-media">
+                <a href="#" target="_blank" class="social-icon facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="#" target="_blank" class="social-icon instagram"><i class="fa fa-instagram"></i> Instagram</a>
+                <a href="#" target="_blank" class="social-icon twitter"><i class="fa fa-twitter"></i> Twitter</a>
+            </div>
+    
+            <div class="footer-address">
+                <p>&copy; 2025 Popinos
+</body>
+</html>
